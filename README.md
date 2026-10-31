@@ -7,8 +7,8 @@ license; the private development repository is not needed to obtain those snapsh
 
 ## Current status
 
-- [Download StreamPocket 1.0.1](https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.1-test.2/StreamPocket-1.0.1.apk)
-- [Release notes, source archives and checksums](https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.1-test.2)
+- [Download StreamPocket 1.0.2](https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.2-test.3/StreamPocket-1.0.2.apk)
+- [Release notes, source archives and checksums](https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.2-test.3)
 - [Public update metadata](https://raw.githubusercontent.com/zohaibhassan64/StreamPocket-releases/main/update.json)
 
 The first release is an **Android test build**, not a production/store release.
@@ -57,3 +57,15 @@ It verifies signed APKs, generates committed source snapshots, stages uploads,
 checks remote hashes and publishes the feed last. It runs on the owner's laptop,
 not in the Android app. Public updates remain hosted on GitHub when that laptop
 is off. Admin credentials are not included in the APK or public source snapshots.
+
+## Site support and optional analytics
+
+StreamPocket uses the full yt-dlp site library and generic media detection, rather
+than a YouTube-only host list. Website support varies; private, protected and live
+videos are unsupported. Version 1.0.2 fixes direct audio links without a format ID.
+
+Optional usage reporting is off by default and excludes video links, titles and
+raw error messages. The owner's local admin can show GitHub APK download counts,
+active reporting devices, device regions, versions and media/error counts. Device
+region is not verified physical location. No public analytics hosting is configured;
+local phone reporting requires USB forwarding. See ANALYTICS.md in the source ZIP.
