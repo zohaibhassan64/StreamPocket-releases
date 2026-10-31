@@ -1,22 +1,19 @@
 {
   "schemaVersion": 1,
   "appId": "app.streampocket.stream_pocket",
-  "version": "1.0.2",
-  "versionCode": 3,
+  "version": "1.1.0",
+  "versionCode": 4,
   "minimumSupportedVersionCode": 1,
   "minAndroidSdk": 29,
   "channel": "testing",
   "mandatory": false,
-  "releaseTag": "v1.0.2-test.3",
-  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.2-test.3",
-  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.2-test.3/StreamPocket-1.0.2.apk",
-  "sha256": "497edb99172e86b808ff77072ae204b70a5f8a0eea49b05eb23ea2717cec14e0",
-  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.2-test.3/StreamPocket-1.0.2-3-source.zip",
-  "sourceSha256": "12948af222b74709f6f7fd47fe9dbe7de05a11951490742d5b6ffbf75e2f2403",
+  "releaseTag": "v1.1.0-test.4",
+  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.1.0-test.4",
+  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.0-test.4/StreamPocket-1.1.0.apk",
+  "sha256": "e2da856177a575359b5abd4933cedba5a449d7b92abf8e9a44f7c73d9e249e1c",
+  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.0-test.4/StreamPocket-1.1.0-4-source.zip",
+  "sourceSha256": "b5e23d2428ab1cf6bba1e370febe9fdc66c3845c102abaaf453964d5486f141d",
   "releaseNotes": [
-    "Optional anonymous usage reporting with user consent and bounded local queue.",
-    "Local analytics dashboard: APK downloads, active reporting devices, device regions, versions, media outcomes and errors.",
-    "Broader site guidance and compatibility fix for direct audio links.",
-    "No video links, titles or raw crash details are reported. Online hosting is not configured; see ANALYTICS.md for USB testing."
+    "New Features Updated"
   ]
 }
