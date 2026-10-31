@@ -13,8 +13,17 @@ For the 1.0.0-test.1 APK:
   the later commit adds distribution documentation and Gradle launchers.
 - Native wrapper source: youtubedl-android-0.18.1-source.zip.
   https://github.com/yausername/youtubedl-android/tree/0.18.1
+  Repacked from that tag to exclude redundant compiled .so/.aar/.apk payloads and
+  the wrapper's old executable yt-dlp zipapp. All Java/Kotlin code, Gradle build
+  files, native build instructions and licenses are retained. The application
+  build retrieves the pinned native artifacts through Maven; the matching engine
+  source is supplied separately below.
 - Download engine source: yt-dlp-2026.10.26-source.zip.
   https://github.com/yt-dlp/yt-dlp/tree/2026.10.26
+- FFmpeg source: ffmpeg-7.1.1-source.zip from the official FFmpeg GitHub mirror.
+  The arm64 libavutil binary's av_version_info value was inspected and identified
+  as 7.1.1. This is the upstream source, not a claim that Termux-specific native
+  packaging can be reproduced byte-for-byte from that archive alone.
 - The source build uses Flutter 3.41.4 / Dart 3.11.1, Android SDK 36, Gradle 8.14,
   Android Gradle plugin 8.11.1 and the pinned Maven native artifacts listed in the
   application build file. Run flutter pub get before compiling.
@@ -25,6 +34,13 @@ For the 1.0.0-test.1 APK:
   https://github.com/termux/termux-packages
   https://github.com/python/cpython
   https://bellard.org/quickjs/
+  GPL codec/filter dependencies enabled by the upstream FFmpeg build also have
+  source available from their upstream projects and Termux package recipes:
+  https://code.videolan.org/videolan/x264
+  https://bitbucket.org/multicoreware/x265_git
+  https://www.xvid.com/download/
+  https://github.com/georgmartius/vid.stab
+  https://github.com/breakfastquay/rubberband
 
 The supplied archive is complete application source with its pinned dependency
 definitions. It is not a claim of an independently verified, byte-for-byte rebuild

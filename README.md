@@ -7,6 +7,10 @@ license; the private development repository is not needed to obtain those snapsh
 
 ## Current status
 
+- [Download the current test APK](https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.0-test.1/StreamPocket-Download-Update.apk)
+- [Release notes, source archives and checksums](https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.0-test.1)
+- [Public update metadata](https://raw.githubusercontent.com/zohaibhassan64/StreamPocket-releases/main/update.json)
+
 The first release is an **Android test build**, not a production/store release.
 It supports Android 10+ on arm64-v8a and x86_64 devices. See the release notes for
 what was tested and what still needs phone verification.
@@ -23,6 +27,10 @@ The source archive includes Gradle launchers and the dependency lock file.
 It excludes private Git history, local SDK paths, signing keys and credentials.
 Read SOURCE_INFORMATION.md and the source package's THIRD_PARTY_NOTICES.md for
 native dependencies, build instructions and upstream sources.
+
+Use the explicitly named **StreamPocket-…-source.zip** release asset for the
+application source. GitHub's automatic "Source code" ZIP/tarball contains this
+release-catalog repository, not the application project.
 
 ## Two kinds of update
 
