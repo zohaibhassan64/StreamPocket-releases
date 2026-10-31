@@ -1,5 +1,11 @@
 # Released source information
 
+The current updater-enabled release is 1.0.1 / code 2. Its exact app source archive,
+license notices, checksums and source commit are attached to:
+https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.1-test.2
+Unchanged upstream native source archives remain available with the baseline
+release listed below and are linked by the current release's source information.
+
 The StreamPocket application is GNU GPL-3.0. Each release provides an application
 source snapshot and the license text alongside its APK. Recipients can obtain the
 snapshot without access to private development history. The GPL permits recipients

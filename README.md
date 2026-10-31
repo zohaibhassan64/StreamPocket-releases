@@ -7,8 +7,8 @@ license; the private development repository is not needed to obtain those snapsh
 
 ## Current status
 
-- [Download the current test APK](https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.0-test.1/StreamPocket-Download-Update.apk)
-- [Release notes, source archives and checksums](https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.0-test.1)
+- [Download StreamPocket 1.0.1](https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.0.1-test.2/StreamPocket-1.0.1.apk)
+- [Release notes, source archives and checksums](https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.0.1-test.2)
 - [Public update metadata](https://raw.githubusercontent.com/zohaibhassan64/StreamPocket-releases/main/update.json)
 
 The first release is an **Android test build**, not a production/store release.
@@ -36,12 +36,14 @@ release-catalog repository, not the application project.
 
 - The current app automatically checks for **yt-dlp engine** updates when used,
   at most once per day. This maintains the downloading engine.
-- A **StreamPocket APK** update changes the app itself. Users currently download
-  and install that APK from Releases. In-app APK update detection is not implemented.
+- A **StreamPocket APK** update changes the app itself. Version 1.0.1 detects newer
+  APKs in Home and Settings. Users choose Download and Install, and Android confirms
+  installation. The APK checksum, identity, version and signing certificate are
+  checked first. Install this first updater-enabled version manually once.
 
-Public update metadata will be made available at update.json after the release
-assets have been uploaded and verified. This is preparation for a future APK
-update checker; it does not modify already-installed APKs by itself.
+Public update metadata is available at update.json. The app checks it when opened,
+using a six-hour cache; manual Settings checks bypass that cache. Updates never
+silently replace the installed app. Finish or pause media downloads before installing.
 
 ## Publishing future updates
 
@@ -50,7 +52,8 @@ version code and preserve the appropriate signing identity. Upload that APK,
 matching source and checksums as a new release here. Publish update.json only after
 verifying the assets. Preserve older releases.
 
-A custom admin panel is not required to publish releases: GitHub's Releases page
-can serve as the initial release-management interface. A later panel can provide
-authenticated APK/source upload, release notes, review and publication. Its server
-must hold publishing credentials; users' Android apps must never contain them.
+A separate password-protected local admin panel is available to the project owner.
+It verifies signed APKs, generates committed source snapshots, stages uploads,
+checks remote hashes and publishes the feed last. It runs on the owner's laptop,
+not in the Android app. Public updates remain hosted on GitHub when that laptop
+is off. Admin credentials are not included in the APK or public source snapshots.
