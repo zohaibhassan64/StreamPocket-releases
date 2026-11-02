@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "appId": "app.streampocket.stream_pocket",
-  "version": "1.1.0",
-  "versionCode": 4,
+  "version": "1.1.1",
+  "versionCode": 5,
   "minimumSupportedVersionCode": 1,
   "minAndroidSdk": 29,
   "channel": "testing",
   "mandatory": false,
-  "releaseTag": "v1.1.0-test.4",
-  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.1.0-test.4",
-  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.0-test.4/StreamPocket-1.1.0.apk",
-  "sha256": "e2da856177a575359b5abd4933cedba5a449d7b92abf8e9a44f7c73d9e249e1c",
-  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.0-test.4/StreamPocket-1.1.0-4-source.zip",
-  "sourceSha256": "b5e23d2428ab1cf6bba1e370febe9fdc66c3845c102abaaf453964d5486f141d",
+  "releaseTag": "v1.1.1-test.5",
+  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.1.1-test.5",
+  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.1-test.5/StreamPocket-1.1.1.apk",
+  "sha256": "3f13f20ba0d515e3acf2ce3a2cdd73af3443810c04bc5f35236b5f23b4be8090",
+  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.1-test.5/StreamPocket-1.1.1-5-source.zip",
+  "sourceSha256": "fbd59b6b2fda4476ff4bea4f062c8ae3df5314de4738164bb1217a9c24513451",
   "releaseNotes": [
-    "New Features Updated"
+    "I added Force update in the app"
   ]
 }
