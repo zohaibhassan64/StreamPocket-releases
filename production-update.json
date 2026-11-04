@@ -1,19 +1,19 @@
 {
   "schemaVersion": 1,
   "appId": "app.streampocket.stream_pocket",
-  "version": "1.1.5",
-  "versionCode": 9,
-  "minimumSupportedVersionCode": 9,
+  "version": "1.1.6",
+  "versionCode": 10,
+  "minimumSupportedVersionCode": 10,
   "minAndroidSdk": 29,
   "channel": "production",
   "mandatory": true,
-  "releaseTag": "v1.1.5",
-  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.1.5",
-  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.5/StreamPocket-1.1.5.apk",
-  "sha256": "4e41ebae728f708dd592e2643a4649f347725489642249ca9298a5b1e95eaa0d",
-  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.5/StreamPocket-1.1.5-9-source.zip",
-  "sourceSha256": "db976b1e56fd62e0de382ab756658d4a894f6574a6b10e097d44aab2885ff0b9",
+  "releaseTag": "v1.1.6",
+  "releaseUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/tag/v1.1.6",
+  "apkUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.6/StreamPocket-1.1.6.apk",
+  "sha256": "bdf3a2df8891ed61d421caffacaf922fe27f599d27fb00dcf3a8226de831764e",
+  "sourceUrl": "https://github.com/zohaibhassan64/StreamPocket-releases/releases/download/v1.1.6/StreamPocket-1.1.6-10-source.zip",
+  "sourceSha256": "9df92613f011f6c1ecc68611a2767a511ae362a47316909b156fb0231083590c",
   "releaseNotes": [
-    "we added something new"
+    "we added some new features"
   ]
 }
